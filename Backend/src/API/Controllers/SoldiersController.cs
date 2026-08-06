@@ -24,6 +24,6 @@ public class SoldiersController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<Soldier> GetById(Guid id)
     {
-        return Ok(new Soldier { Id = id, MilitaryNumber = "MIL-10294", Rank = "نقيب", FullName = "احمد علي المحمود" });
+        return Ok(new Soldier { Id = id, MilitaryNumber = "MIL-10294", Rank = "", FullName = "" });
     }
 }
