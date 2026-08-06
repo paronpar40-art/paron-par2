@@ -13,9 +13,9 @@ public class SoldiersController : ControllerBase
     {
         var soldiers = new List<Soldier>
         {
-            new Soldier { MilitaryNumber = "MIL-10294", Rank = "نقيب", FullName = "احمد علي المحمود", UnitCompany = "السرية الأولى مدرعات", Role = "COMMANDER", Status = "PRESENT" },
-            new Soldier { MilitaryNumber = "MIL-20481", Rank = "ملازم أول", FullName = "خالد حسن السلمي", UnitCompany = "السرية الثانية إمداد", Role = "SUPERVISOR", Status = "DUTY_OFFICER" },
-            new Soldier { MilitaryNumber = "MIL-30912", Rank = "رقيب أول", FullName = "عمر فاروق العتيبي", UnitCompany = "سرية القيادة والسيطرة", Role = "SOLDIER", Status = "LEAVE" }
+            new Soldier { MilitaryNumber = "MIL-10294", Rank = "", FullName = "", UnitCompany = "السرية الأولى مدرعات", Role = "COMMANDER", Status = "PRESENT" },
+            new Soldier { MilitaryNumber = "MIL-20481", Rank = "", FullName = "", UnitCompany = "السرية الثانية إمداد", Role = "SUPERVISOR", Status = "DUTY_OFFICER" },
+            new Soldier { MilitaryNumber = "MIL-30912", Rank = "", FullName = "", UnitCompany = "سرية القيادة والسيطرة", Role = "SOLDIER", Status = "LEAVE" }
         };
 
         return Ok(soldiers);
