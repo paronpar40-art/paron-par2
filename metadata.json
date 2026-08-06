@@ -1,0 +1,6 @@
+{
+  "name": "منظومة إدارة وحدة المدرعات والدعم الآلي",
+  "description": "وثيقة تحليل المتطلبات الشاملة (SRS) والبوابة التفاعلية لمنظومة إدارة وحدة المدرعات والدعم الآلي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
